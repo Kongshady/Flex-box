@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    text-align: center;
+    background-color: rgb(10, 9, 9);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.topnav a{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.topnav a:hover{
+    background-color: beige;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+    float: left;
+    text-align: center;
+    box-shadow: 0 4px 8px;
+    max-width: 302px;
+    min-width: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    height: auto;
+}
